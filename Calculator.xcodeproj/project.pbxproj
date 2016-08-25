@@ -12,6 +12,7 @@
 		F5C954DA1D6D882F00D2FFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C954D81D6D882F00D2FFBC /* Main.storyboard */; };
 		F5C954DC1D6D882F00D2FFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C954DB1D6D882F00D2FFBC /* Assets.xcassets */; };
 		F5C954DF1D6D882F00D2FFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C954DD1D6D882F00D2FFBC /* LaunchScreen.storyboard */; };
+		F5DBDC161D6E91B400E958AB /* OperatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBDC151D6E91B400E958AB /* OperatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F5C954DB1D6D882F00D2FFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C954DE1D6D882F00D2FFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C954E01D6D882F00D2FFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DBDC151D6E91B400E958AB /* OperatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F5C954D41D6D882F00D2FFBC /* AppDelegate.swift */,
 				F5C954D61D6D882F00D2FFBC /* ViewController.swift */,
+				F5DBDC151D6E91B400E958AB /* OperatorButton.swift */,
 				F5C954D81D6D882F00D2FFBC /* Main.storyboard */,
 				F5C954DB1D6D882F00D2FFBC /* Assets.xcassets */,
 				F5C954DD1D6D882F00D2FFBC /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C954D71D6D882F00D2FFBC /* ViewController.swift in Sources */,
+				F5DBDC161D6E91B400E958AB /* OperatorButton.swift in Sources */,
 				F5C954D51D6D882F00D2FFBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				F5C954E51D6D882F00D2FFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
